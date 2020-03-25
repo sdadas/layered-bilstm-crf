@@ -129,4 +129,5 @@ def main(config_path):
 
 
 if __name__ == '__main__':
-    main('../src/config')
+    config_name = sys.argv[1]
+    main('../src/' + config_name)
